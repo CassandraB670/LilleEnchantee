@@ -9,52 +9,115 @@
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="images/LILLE_ENCHANTEE_LOGO.png" alt=""></a>
+        <a href="index.html"><img class="logo" src="images/LILLE_ENCHANTEE_LOGO.png" alt=""></a>
         
-        <a href="formulairedeconnexion.html"> <img src="" alt=""></a>
-        <a href="espacepersonnel.html"> <img src="" alt=""></a>
+        <a href="formulairedeconnexion.html"> <img src="images/PICTO_PERSO.svg" alt="" height="50px" width="50px"></a>
+        <a href="espacepersonnel.html"> <img src="images/PICTO_COEUR (1).svg" alt="" height="50px" width="50px"></a>
 
         <label for="language">Langue</label>
         <select name="language" id="language">
-            <option value="Français">FR<img src="" alt=""></option>
-            <option value="Anglais">EN<img src="" alt=""></option>
+            <option value="Français">FR</option>
+            <option value="Anglais">EN<img src="images/LG_EN.png" alt=""></option>
             <option value="Italier">IT<img src="" alt=""></option>
         </select>
 
         <nav>
             <ul>
-                <li><a href="permanentes.html">Permanentes</a></li>
-                <li><a href="ponctuelles.html">Ponctuelles</a></li>
-                <li><a href="espacepersonnel.html">Espace Personnel</a></li>
-                <li><a href="index.html">Contact</li>
-                <li><a href="mesbonsplans.html">Mes Bons Plans</a></li>
+                <li><a href="Permanentes.html">Permanentes</a></li>
+                <li><a href="Ponctuelles.html">Ponctuelles</a></li>
+                <li><a href="EspacePersonnel.html">Espace Personnel</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="MesBonsPlans.html">Mes Bons Plans</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         
+        <div class="filtrespermanents">
+
+            <select class="filtre" name="typedactivite" id="">
+                <option value="#">Type d'activité</option>
+                <option value="Culturel">Culturel</option>
+                <option value="Amusement">Amusement</option>
+                <option value="Sportif">Sportif</option>
+                <option value="Détente">Détente</option>
+            </select>
+
+            <select class="filtre" name="compositiongroupe" id="">
+                <option value="#">Composition du groupe</option>
+                <option value="Seul">Seul</option>
+                <option value="En couple">En couple</option>
+                <option value="Entre Amis">Entre Amis</option>
+                <option value="En Famille">En Famille</option>
+            </select>
+
+            <select class="filtre" name="age" id="">
+                <option value="#">Âge</option>
+                <option value="2-5 ans">2-5 ans</option>
+                <option value="6-12 ans">6-12 ans</option>
+                <option value="12 ans et plus">12 ans et plus</option>
+            </select>
+
+            <select class="filtre" name="budget" id="">
+                <option value="#">Budget</option>
+                <option value="Petit Budget">Petit Budget</option>
+                <option value="Moyen Budget">Moyen Budget</option>
+                <option value="Gros Budget">Gros Budget</option>
+            </select>
+
+            <select class="filtre" name="meteo" id="">
+                <option value="#">Météo</option>
+                <option value="Beau Temps">Beau Temps</option>
+                <option value="Mauvais Temps">Mauvais Temps</option>
+            </select>
+
+            <select class="filtre" name="localisation" id="">
+                <option value="#">Localisation</option>
+                <option value="Lille < 15km">Lille < 15km</option>
+                <option value="5km < Lille < 15km">5km < Lille < 15km</option>
+                <option value="Lille > 15km">Lille > 15km</option>
+            </select>
+
+            <select class="filtre"name="accessiblepmr" id="">
+                <option value="#">Accessible PMR</option>
+                <option value="Oui">Oui</option>
+                <option value="Non">Non</option>
+            </select>
+        </div>
+
+        <h1>Activités Permanentes</h1>
+
+        <br>
+
+        <h2>En Famille</h2>
+        <h2>Top Budget</h2>
+        <h2>Culturel</h2>
 
     </main>
 
 
     <footer>
-        <section>
+
+        <div class="mentionslegales">
+        <section class="pieddepage">
             <h4>A PROPOS</h4>
             <p>A propos de Lille Enchantée</p>
             <p>Presse</p>
             <p>Nous rejoindre</p>
         </section>
-        <section>
+        <section class="pieddepage">
             <h4>LIENS UTILES</h4>
             <p>Devenir partenaire</p>
             <p>FAQ - Besoin d'aide ?</p>
             <p>Tous les avis Lille Enchantée</p>
         </section>
-        <section>
+        <section class="pieddepage">
             <p>Conditions Générales</p>
             <p>Mentions Légales</p>
         </section>
+        </div>
+        <br>
 
         <p class="copyright">© Lille Enchantée 2023 - tous droits réservés</p>
     </footer>

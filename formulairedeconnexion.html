@@ -9,52 +9,75 @@
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="images/LILLE_ENCHANTEE_LOGO.png" alt=""></a>
+        <a href="index.html"><img class="logo" src="images/LILLE_ENCHANTEE_LOGO.png" alt=""></a>
         
-        <a href="formulairedeconnexion.html"> <img src="" alt=""></a>
-        <a href="espacepersonnel.html"> <img src="" alt=""></a>
+        <a href="formulairedeconnexion.html"> <img src="images/PICTO_PERSO.svg" alt="" height="50px" width="50px"></a>
+        <a href="espacepersonnel.html"> <img src="images/PICTO_COEUR (1).svg" alt="" height="50px" width="50px"></a>
 
         <label for="language">Langue</label>
         <select name="language" id="language">
-            <option value="Français">FR<img src="" alt=""></option>
-            <option value="Anglais">EN<img src="" alt=""></option>
+            <option value="Français">FR</option>
+            <option value="Anglais">EN<img src="images/LG_EN.png" alt=""></option>
             <option value="Italier">IT<img src="" alt=""></option>
         </select>
 
         <nav>
             <ul>
-                <li><a href="permanentes.html">Permanentes</a></li>
-                <li><a href="ponctuelles.html">Ponctuelles</a></li>
-                <li><a href="espacepersonnel.html">Espace Personnel</a></li>
-                <li><a href="index.html">Contact</li>
-                <li><a href="mesbonsplans.html">Mes Bons Plans</a></li>
+                <li><a href="Permanentes.html">Permanentes</a></li>
+                <li><a href="Ponctuelles.html">Ponctuelles</a></li>
+                <li><a href="EspacePersonnel.html">Espace Personnel</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="MesBonsPlans.html">Mes Bons Plans</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        
+        <h2>Se connecter</h2>
+            <form action="">
+            <label for="email"><input type="email" id="email" size="20" placeholder="E-mail" required><br>
+            <label for="password"><input type="password" id="password" size="20" placeholder="Mot de passe" minlength="12" required></form><br>
+            <p>Mot de passe oublié ?</p>
+        <input type="submit" value="Se connecter">
+             <h2>S'inscrire</h2>
+            <form action="">
+            <label><input type="text" id="nomprenom" placeholder="Nom, Prénom" required></label><br>
+            <label for="numero"><input type="tel" id="phone" name="phone" placeholder="Numero" required></label><br>
+            <label for="email"><input type="email" id="email" size="20" placeholder="E-mail" required><br>
+            <label for="password"><input type="password" id="password" size="20" placeholder="Mot de passe" minlength="12" required><br>
+            <input type="submit" value="S'inscrire"></form>
+        <br><hr>
+        <h4>M'inscrire via les réseaux</h4>
+            <a href="https://www.facebook.com/" target="_blank"><img src="IMAGE/FB.png" alt="logo facebook" width="50"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="IMAGE/INSTA.png" alt="logo instagram" width="50"></a>
+            <a href="https://gmail.com/" target="_blank"><img src="IMAGE/GMAIL.png" alt="logo gmail" width="50"></a><br>
+        <img src="IMAGE/avion.png" alt="avion" height="100">
+    </main>
 
     </main>
 
 
     <footer>
-        <section>
+
+        <div class="mentionslegales">
+        <section class="pieddepage">
             <h4>A PROPOS</h4>
             <p>A propos de Lille Enchantée</p>
             <p>Presse</p>
             <p>Nous rejoindre</p>
         </section>
-        <section>
+        <section class="pieddepage">
             <h4>LIENS UTILES</h4>
             <p>Devenir partenaire</p>
             <p>FAQ - Besoin d'aide ?</p>
             <p>Tous les avis Lille Enchantée</p>
         </section>
-        <section>
+        <section class="pieddepage">
             <p>Conditions Générales</p>
             <p>Mentions Légales</p>
         </section>
+        </div>
+        <br>
 
         <p class="copyright">© Lille Enchantée 2023 - tous droits réservés</p>
     </footer>
