@@ -1,0 +1,25 @@
+nav{background-color: #FEE231;}
+
+footer{background-color: #4AA77C;
+color: white;}
+
+div{display: flex;
+}
+
+.pieddepage{margin: 60px;}
+
+.contact{display: flex;}
+
+.encart{display: flex;}
+
+h1{ text-align: center;}
+
+.présentation{text-align: center;}
+
+ul{display: flex;
+padding-top: 20px;
+padding-bottom: 20px;
+list-style-type: none;
+}
+
+li{margin-right: 40px;}
