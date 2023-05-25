@@ -9,17 +9,32 @@ div{display: flex;}
 .mentionslegales{margin-left: 30px;}
 
 
-.permanentes, .newsletter{margin-left: 120px;}
+.permanentes {background-image: url(images/ENCART-02.png);
+    width:550px; height:550px;
+    background-size: cover;}
 
-.ponctuelles{margin-left: 100px;}
+.newsletter{margin-left: 120px;}
+.ponctuelles{background-image: url(images/ENCART-01.png);
+    width:550px; height:550px;
+    background-size: cover;
+    margin-left: 100px;}
 
+.permanentes, .ponctuelles{
+    display: flex;
+    align-items: end;
+}
+
+.permanentes article, .ponctuelles article{
+
+}
 .formulaire{margin-left: 267px;}
 
 .pieddepage{margin: 60px;}
 
 .contact{display: flex;}
 
-.encart{display: flex;
+.encarts{display: flex;
+    justify-content: center;
 }
 
 h1{ text-align: center;}
