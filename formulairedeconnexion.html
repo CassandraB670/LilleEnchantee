@@ -9,36 +9,49 @@
 </head>
 <body>
     <header>
-        <a href="index.html"><img class="logo" src="images/LILLE_ENCHANTEE_LOGO.png" alt=""></a>
-        
-        <a href="formulairedeconnexion.html"> <img src="images/PICTO_PERSO.svg" alt="" height="50px" width="50px"></a>
-        <a href="espacepersonnel.html"> <img src="images/PICTO_COEUR (1).svg" alt="" height="50px" width="50px"></a>
+        <div class="en-tête">
 
-        <label for="language">Langue</label>
-        <select name="language" id="language">
-            <option value="Français">FR</option>
-            <option value="Anglais">EN<img src="images/LG_EN.png" alt=""></option>
-            <option value="Italier">IT<img src="" alt=""></option>
-        </select>
+            <a href="index.html"><img class="logo" src="images/LILLE_ENCHANTEE_LOGO.png" alt=""></a>
+
+            <div class="picto">
+                <a href="formulairedeconnexion.html"> <img src="images/PICTO_PERSO.svg" alt="" height="50px"
+                        width="50px"></a>
+                <a href="espacepersonnel.html"> <img src="images/PICTO_COEUR (1).svg" alt="" height="50px"
+                        width="50px"></a>
+
+                <label for="language">Langue</label>
+                <select name="language" id="language">
+                    <option value="Français">FR</option>
+                    <option value="Anglais">EN<img src="images/LG_EN.png" alt=""></option>
+                    <option value="Italier">IT<img src="" alt=""></option>
+                </select>
+            </div>
+        </div>
 
         <nav>
             <ul>
                 <li><a href="Permanentes.html">Permanentes</a></li>
                 <li><a href="Ponctuelles.html">Ponctuelles</a></li>
                 <li><a href="EspacePersonnel.html">Espace Personnel</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="index.html">Contact</a></li>
                 <li><a href="MesBonsPlans.html">Mes Bons Plans</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+
+        <div class="connexion">
+        <section class="seconnecter">
         <h2>Se connecter</h2>
             <form action="">
             <label for="email"><input type="email" id="email" size="20" placeholder="E-mail" required><br>
             <label for="password"><input type="password" id="password" size="20" placeholder="Mot de passe" minlength="12" required></form><br>
             <p>Mot de passe oublié ?</p>
         <input type="submit" value="Se connecter">
+            </section>
+
+        <section class="inscription">
              <h2>S'inscrire</h2>
             <form action="">
             <label><input type="text" id="nomprenom" placeholder="Nom, Prénom" required></label><br>
@@ -51,6 +64,9 @@
             <a href="https://www.facebook.com/" target="_blank"><img src="IMAGE/FB.png" alt="logo facebook" width="50"></a>
             <a href="https://www.instagram.com/" target="_blank"><img src="IMAGE/INSTA.png" alt="logo instagram" width="50"></a>
             <a href="https://gmail.com/" target="_blank"><img src="IMAGE/GMAIL.png" alt="logo gmail" width="50"></a><br>
+
+            </section>
+        </div>
         <img src="IMAGE/avion.png" alt="avion" height="100">
 
     </main>
@@ -59,22 +75,22 @@
     <footer>
 
         <div class="mentionslegales">
-        <section class="pieddepage">
-            <h4>A PROPOS</h4>
-            <p>A propos de Lille Enchantée</p>
-            <p>Presse</p>
-            <p>Nous rejoindre</p>
-        </section>
-        <section class="pieddepage">
-            <h4>LIENS UTILES</h4>
-            <p>Devenir partenaire</p>
-            <p>FAQ - Besoin d'aide ?</p>
-            <p>Tous les avis Lille Enchantée</p>
-        </section>
-        <section class="pieddepage">
-            <p>Conditions Générales</p>
-            <p>Mentions Légales</p>
-        </section>
+            <section class="pieddepage">
+                <h4>A PROPOS</h4>
+                <p>A propos de Lille Enchantée</p>
+                <p>Presse</p>
+                <p>Nous rejoindre</p>
+            </section>
+            <section class="pieddepage">
+                <h4>LIENS UTILES</h4>
+                <p>Devenir partenaire</p>
+                <p>FAQ - Besoin d'aide ?</p>
+                <p>Tous les avis Lille Enchantée</p>
+            </section>
+            <section class="pieddepage">
+                <p>Conditions Générales</p>
+                <p>Mentions Légales</p>
+            </section>
         </div>
         <br>
 

@@ -1,3 +1,5 @@
+a{text-decoration: none; color: black;}
+
 nav{background-color: #FEE231;}
 
 footer{background-color: #4AA77C;
@@ -6,24 +8,48 @@ color: white;
 
 div{display: flex;}
 
-.mentionslegales{margin-left: 30px;}
+.mentionslegales{margin-left: 30px;
+display: flexbox;
+justify-content: space-around;
+align-items: center;}
+
+.en-tête{display: flexbox;
+justify-content: space-between;
+align-items: center;}
 
 
 .permanentes {background-image: url(images/ENCART-02.png);
     width:550px; height:550px;
-    background-size: cover;}
+    background-size: cover;
+    transition-duration: 1s;}
+
+#photoenfamille, #photoculturel, #phototopbudget, #photoaujourdhui, #photodemain, #photoceweekend, #photomesbonsplans{width: 100%;}
 
 .newsletter{margin-left: 120px;}
+
 .ponctuelles{background-image: url(images/ENCART-01.png);
     width:550px; height:550px;
     background-size: cover;
-    margin-left: 100px;}
+    margin-left: 100px;
+    transition-duration: 1s;}
 
 .permanentes, .ponctuelles{
     display: flex;
     align-items: end;
 }
 
+.permanentes:hover{
+    width: 700px; height:700px;
+    box-shadow: 10px 10px black;
+    transition-duration: 1s;
+}
+
+.ponctuelles:hover{
+    width: 700px; height:700px;
+    box-shadow: 10px 10px black;  
+    transition-duration: 1s;
+    
+}
 .permanentes article, .ponctuelles article{
 
 }
@@ -32,13 +58,30 @@ div{display: flex;}
 
 .pieddepage{margin: 60px;}
 
-.contact{display: flex;}
+.contact{display: flex;
+justify-content: flex-start;
+padding-left: 200px;}
 
 .encarts{display: flex;
     justify-content: center;
 }
 
-h1{ text-align: center;}
+h1{ text-align: center;
+font-size: 50px;}
+h2{margin-top: 40px;
+margin-left: 155px;}
+.mesbonsplans, .mesfavoris, .topbudget, .culturel, .enfamille, .aujourdhui, .demain, .ceweekend{
+    display: flexbox;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+#mesbonsplans, #mesfavoris, #topbudget, #culturel, #enfamille, #aujourdhui, #demain, #ceweekend{
+    height: 400px;
+    width: 300px;
+}
 
 .présentation{text-align: center;}
 
