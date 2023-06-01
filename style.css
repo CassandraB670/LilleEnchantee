@@ -68,7 +68,7 @@ padding-left: 200px;}
 
 h1{ text-align: center;
 font-size: 50px;}
-h2{margin-top: 40px;
+.titre{margin-top: 40px;
 margin-left: 155px;}
 .mesbonsplans, .mesfavoris, .topbudget, .culturel, .enfamille, .aujourdhui, .demain, .ceweekend{
     display: flexbox;
